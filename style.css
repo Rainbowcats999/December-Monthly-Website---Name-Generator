@@ -13,7 +13,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   color: aliceblue;
-  text-shadow: 20px 10px 10px rgb(41, 241, 165);
+  text-shadow: 0px 10px 10px rgb(41, 241, 165), 0px 10px 10px rgb(41, 241, 165);
 }
 /*ends here*/
 
@@ -168,3 +168,7 @@ label {
   }
 }
 /*ends here*/
+
+#result {
+  font-weight: 900;
+}
