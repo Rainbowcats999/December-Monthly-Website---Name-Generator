@@ -79,11 +79,17 @@ function genfullName() {
 
   //Generate each part of the name using helper function
   const prefix = genPrefix(firstName);
-
   const newfirstName = genFirstname(firstName);
   const middleName = genMiddleName(roadType, favoriteColor);
   const newlastName = genLastname(lastName);
   const suffix = gensuffix(favoriteAnimal);
+
+  console.log(prefix);
+  console.log(newfirstName);
+  console.log(middleName);
+  console.log(newlastName);
+  console.log(suffix);
+
   //function to capitalize words
   const capitalizePrefix = capitalize(prefix);
   const capitalizefirstName = capitalize(newfirstName);
@@ -102,7 +108,7 @@ function genfullName() {
 //Function capitalizar
 function capitalize(word) {
   console.log(word);
-  return word.charAt(0).toUppercase() + word.slice(1).toLowerCase();
+  return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
 }
 //ends here
 //everything ends here
