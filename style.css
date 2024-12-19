@@ -13,15 +13,31 @@ h1 {
   font-weight: 400;
   font-style: normal;
   color: aliceblue;
-  text-shadow: 0px 10px 10px rgb(41, 241, 165), 0px 10px 10px rgb(41, 241, 165);
+  text-shadow: 20px 10px 10px rgb(41, 241, 165), 20px 10px 10px rgb(41, 241, 165);
+}
+
+h1:hover {
+  font-family: "p22-freely", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: lightblue;
+  text-shadow: 20px 10px 10px rgb(41, 241, 165), 20px 10px 10px rgb(41, 241, 165);
 }
 /*ends here*/
 
-p {
+h4 {
   font-family: "p22-freely", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: aliceblue;
+  text-shadow: 2px;
+}
+
+h4:hover {
+  font-family: "p22-freely", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: blue;
   text-shadow: 2px;
 }
 
@@ -32,7 +48,7 @@ label {
   color: aliceblue;
   text-shadow: 2px;
 }
-/*button rules*/
+/*fancy blob button rules*/
 
 *,
 *:before,
@@ -124,7 +140,7 @@ label {
 .blob-btn__blob {
   position: absolute;
   top: 2px;
-  width: 25%;
+  width: 35%;
   height: 100%;
   background: #a90505;
   border-radius: 100%;
@@ -171,4 +187,18 @@ label {
 
 #result {
   font-weight: 900;
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  font-family: cursive;
+  text-shadow: #a90505;
+}
+
+#result:hover {
+  font-weight: 900;
+  text-align: center;
+  color: rgb(201, 46, 92);
+  font-size: 70px;
+  font-family: cursive;
+  text-shadow: #a90505;
 }
