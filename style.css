@@ -1,6 +1,6 @@
 /*background rules*/
 body {
-  background-image: url(/imgs/cool.avif);
+  background-image: url(imgs/cool.avif);
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
